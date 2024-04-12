@@ -18,7 +18,7 @@ export class LoginPage  {
   }
  
   showRegister() {
-    this.navCtrl.navigateForward('register');
+    this.navCtrl.navigateBack('register');
   }
  
  
